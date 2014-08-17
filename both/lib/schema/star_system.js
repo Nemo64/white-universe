@@ -1,7 +1,8 @@
 StarSystemSchema = new SimpleSchema({
   name: {
     type: String,
-    unique: true
+    unique: true,
+    index: true
   },
   position: {
     type: PositionSchema
