@@ -25,6 +25,7 @@ Meteor.subscribe('star_system');
 // refresh animationFrame dependency
 var animationFrameCallback = function () {
   App.animationFrameDep.changed();
+  Deps.flush(); // execute now !!
   requestAnimationFrame(animationFrameCallback);
 };
 requestAnimationFrame(animationFrameCallback);
