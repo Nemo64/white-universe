@@ -23,7 +23,7 @@ PlanetSchema.calculatePosition = function (planet) {
     App.animationFrameDep.depend();
   }
   
-  var time = (_.now() * SPEED_MOD) % planet.speed / planet.speed * 2;
+  var time = (App.time() * SPEED_MOD) / planet.speed * 2;
   
   return {
     x: planet.offset * Math.cos(time * Math.PI),

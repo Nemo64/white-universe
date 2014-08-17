@@ -10,7 +10,8 @@
       "bootstrap3-less": {
         "git": "https://github.com/Nemo64/bootstrap3-less.git",
         "branch": "master"
-      }
+      },
+      "timesync": {}
     },
     "packages": {
       "iron-router": {
@@ -42,6 +43,11 @@
         "git": "https://github.com/Nemo64/bootstrap3-less.git",
         "branch": "master",
         "commit": "89201990c1a1370bbb3fae05c4428d9f358cf17c"
+      },
+      "timesync": {
+        "git": "https://github.com/mizzao/meteor-timesync.git",
+        "tag": "v0.2.1",
+        "commit": "fa4abd511f4e32a3c5d22795ce2c1e8369428fac"
       },
       "iron-layout": {
         "git": "https://github.com/EventedMind/iron-layout.git",

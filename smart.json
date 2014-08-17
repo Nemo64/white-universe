@@ -5,6 +5,9 @@
     "collection2": {},
     "translator": {},
     "query-builder": {},
-    "bootstrap3-less": {"git": "https://github.com/Nemo64/bootstrap3-less.git"}
+    "bootstrap3-less": {
+      "git": "https://github.com/Nemo64/bootstrap3-less.git"
+    },
+    "timesync": {}
   }
 }

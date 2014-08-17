@@ -1,0 +1,12 @@
+StarSystem.update('iETBPKo9PDy8mDePu', {$set: {
+  position: {x: 300, y:300},
+  stars: [
+    {offset: 2, type: 'sun', speed: 8000}
+  ],
+  planets: [
+    {offset: 18, type: 'stone', speed: 3000},
+    {offset: 64, type: 'earth', speed: 16000},
+    {offset: 128, type: 'gas', speed: 560000}
+  ],
+  position: {x: 100, y: 100}
+}});

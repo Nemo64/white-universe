@@ -1,8 +1,8 @@
 
 /*****************************************************************************/
-/* StarSystem: Event Handlers and Helpersss .js*/
+/* Planet: Event Handlers and Helpersss .js*/
 /*****************************************************************************/
-Template.StarSystem.events({
+Template.Planet.events({
   /*
    * Example:
    *  'click .selector': function (e, tmpl) {
@@ -11,29 +11,25 @@ Template.StarSystem.events({
    */
 });
 
-Template.StarSystem.helpers({
+Template.Planet.helpers({
   /*
    * Example:
    *  items: function () {
    *    return Items.find();
    *  }
    */
-  planetPosition: function (planet) {
-    var position = PlanetSchema.calculatePosition(planet);
-    return Css.helpers.cssHwPosition(position);
-  }
 });
 
 /*****************************************************************************/
-/* StarSystem: Lifecycle Hooks */
+/* Planet: Lifecycle Hooks */
 /*****************************************************************************/
-Template.StarSystem.created = function () {
+Template.Planet.created = function () {
 };
 
-Template.StarSystem.rendered = function () {
+Template.Planet.rendered = function () {
 };
 
-Template.StarSystem.destroyed = function () {
+Template.Planet.destroyed = function () {
 };
 
 

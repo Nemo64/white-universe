@@ -1,5 +1,7 @@
 <template name="StarSystem">
   <div class="star-system">
-    <div class="star">&bull;</div>
+    {{#each stars}}
+      <div class="star-representation" style="{{planetPosition this}}"></div>
+    {{/each}}
   </div>
 </template>

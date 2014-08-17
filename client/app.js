@@ -2,7 +2,8 @@
 /* Client App Namespace  */
 /*****************************************************************************/
 _.extend(App, {
-  animationFrameDep: new Deps.Dependency()
+  animationFrameDep: new Deps.Dependency(),
+  time: TimeSync.serverTime // TODO remove dependency that this method introduces
 });
 
 App.helpers = {
@@ -31,10 +32,3 @@ requestAnimationFrame(animationFrameCallback);
 $(document).on('click', '[data-href]', function () {
   Router.go($(this).data('href'));
 });
-
-// fill missing underscore method
-if (! _.now) {
-  _.now = Date.now || function () { return (new Date()).getTime() };
-} else {
-  console.warn("Underscore method in app.js can be removed!");
-}

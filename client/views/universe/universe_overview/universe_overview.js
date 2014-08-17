@@ -25,6 +25,11 @@ Template.UniverseOverview.helpers({
   isActive: function (starSystem) {
     var params = Router.current().params;
     return starSystem.name === params.star_system;
+  },
+  
+  activeSystem: function () {
+    var params = Router.current().params;
+    return StarSystem.findOne({name: params.star_system});
   }
 });
 
@@ -35,9 +40,18 @@ Template.UniverseOverview.created = function () {
 };
 
 Template.UniverseOverview.rendered = function () {
+  var self = this;
+  self.resizeEvent = function () {
+    // TODO universe resize event
+  };
+  
+  $([document, document.body]).on('ready resize focus blur', self.resizeEvent);
 };
 
 Template.UniverseOverview.destroyed = function () {
+  var self = this;
+  
+  $([document, document.body]).off('ready resize focus blur', self.resizeEvent);
 };
 
 
