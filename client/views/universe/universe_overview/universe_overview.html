@@ -1,0 +1,13 @@
+<template name="UniverseOverview">
+  {{#each systems}}
+    {{#if isActive this}}
+      <div class="star-system-wrap active-star-system" style="left: {{position.x}}px; top: {{position.y}}px">
+        {{> FullStarSystem this}}
+      </div>
+    {{else}}
+      <div class="star-system-wrap" data-href="{{starSystemPath this}}" style="left: {{position.x}}px; top: {{position.y}}px">
+        {{> StarSystem this}}
+      </div>
+    {{/if}}
+  {{/each}}
+</template>

@@ -1,0 +1,23 @@
+/*****************************************************************************/
+/* UniverseOverview: Style */
+/*****************************************************************************/
+@import "/client/lib/custom.bootstrap.import.less";
+
+.map, .interface {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.map {
+  overflow: hidden;
+  z-index: 1;
+  
+  > .star-system-wrap {
+    position: absolute;
+  }
+}
+
+.interface {
+  overflow: auto;
+}

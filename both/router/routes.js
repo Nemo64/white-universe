@@ -14,4 +14,11 @@ Router.map(function () {
     Example:
       this.route('home', {path: '/'});
   */
+  this.route('blank', {
+    path: '/:star_system',
+    layoutTemplate: 'GameLayout',
+    data: function () {
+      return null;
+    }
+  });
 });
