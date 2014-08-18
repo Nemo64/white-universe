@@ -12,3 +12,6 @@ query-builder
 less
 bootstrap3-less
 timesync
+browser-policy
+underscore
+jquery
