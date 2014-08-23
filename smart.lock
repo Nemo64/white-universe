@@ -6,9 +6,7 @@
       "bootstrap3-less": {
         "git": "https://github.com/Nemo64/bootstrap3-less.git",
         "branch": "master"
-      },
-      "depend-on": {},
-      "query-builder": {}
+      }
     },
     "packages": {
       "collection2": {
@@ -20,16 +18,6 @@
         "git": "https://github.com/Nemo64/bootstrap3-less.git",
         "branch": "master",
         "commit": "89201990c1a1370bbb3fae05c4428d9f358cf17c"
-      },
-      "depend-on": {
-        "git": "https://github.com/Nemo64/meteor-depend-on.git",
-        "tag": "v1.0.1",
-        "commit": "9346b46ea1f02180c1af1a6150f9e9e80f3266bd"
-      },
-      "query-builder": {
-        "git": "https://github.com/Nemo64/meteor-query-builder.git",
-        "tag": "v1.1.0",
-        "commit": "e670744187bccdfee25c0d5a6b0650d2a9e8faca"
       },
       "simple-schema": {
         "git": "https://github.com/aldeed/meteor-simple-schema.git",

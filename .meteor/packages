@@ -12,7 +12,7 @@ iron:router
 mizzao:timesync
 aldeed:simple-schema
 collection2
-depend-on
 bootstrap3-less
-query-builder
+nemo64:query-builder
+nemo64:depend-on
 

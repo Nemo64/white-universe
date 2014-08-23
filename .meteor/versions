@@ -14,7 +14,6 @@ check@1.0.0
 collection2@0.0.0
 ctl-helper@1.0.2
 ctl@1.0.0
-depend-on@1.0.1
 deps@1.0.1
 ejson@1.0.0
 follower-livedata@1.0.0
@@ -37,9 +36,10 @@ minifiers@1.0.2
 minimongo@1.0.1
 mizzao:timesync@0.2.2
 mongo-livedata@1.0.3
+nemo64:depend-on@1.0.1
+nemo64:query-builder@1.1.0
 observe-sequence@1.0.1
 ordered-dict@1.0.0
-query-builder@0.0.0
 random@1.0.0
 reactive-dict@1.0.0
 reload@1.0.0
