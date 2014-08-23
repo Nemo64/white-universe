@@ -4,14 +4,15 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-iron-router
-simple-schema
-collection2
-translator
-query-builder
 less
-bootstrap3-less
-timesync
 browser-policy
 underscore
 jquery
+iron:router
+mizzao:timesync
+aldeed:simple-schema
+collection2
+depend-on
+bootstrap3-less
+query-builder
+

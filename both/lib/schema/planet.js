@@ -20,7 +20,7 @@ PlanetSchema.calculatePosition = function (planet) {
   
   // make this function reactive
   if (Meteor.isClient) {
-    App.animationFrameDep.depend();
+    DependOn.animationFrame();
   }
   
   var time = (App.time() * SPEED_MOD) / planet.speed * 2;

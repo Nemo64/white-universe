@@ -2,7 +2,6 @@
 /* Client App Namespace  */
 /*****************************************************************************/
 _.extend(App, {
-  animationFrameDep: new Deps.Dependency(),
   time: TimeSync.serverTime // TODO remove dependency that this method introduces
 });
 
@@ -21,14 +20,6 @@ _.each(App.helpers, function (helper, key) {
 });
 
 Meteor.subscribe('star_system');
-
-// refresh animationFrame dependency
-var animationFrameCallback = function () {
-  App.animationFrameDep.changed();
-  Deps.flush(); // execute now !!
-  requestAnimationFrame(animationFrameCallback);
-};
-requestAnimationFrame(animationFrameCallback);
 
 $(document).on('click', '[data-href]', function () {
   Router.go($(this).data('href'));
