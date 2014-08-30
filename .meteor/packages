@@ -11,8 +11,8 @@ jquery
 iron:router
 mizzao:timesync
 aldeed:simple-schema
-collection2
-bootstrap3-less
 nemo64:query-builder
 nemo64:depend-on
+nemo64:bootstrap
+aldeed:collection2
 

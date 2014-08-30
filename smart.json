@@ -1,8 +1,0 @@
-{
-  "packages": {
-    "collection2": {},
-    "bootstrap3-less": {
-      "git": "https://github.com/Nemo64/bootstrap3-less.git"
-    }
-  }
-}
