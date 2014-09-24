@@ -13,6 +13,7 @@ mizzao:timesync
 aldeed:simple-schema
 nemo64:query-builder
 nemo64:depend-on
-nemo64:bootstrap
 aldeed:collection2
+nemo64:translator
+nemo64:bootstrap
 
