@@ -1,3 +1,4 @@
+DEVEL = true;
 SPEED_MOD = 1.0;
 
 MAX_UNIVERSE_X = 1000000;
