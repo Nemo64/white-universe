@@ -16,4 +16,7 @@ nemo64:depend-on
 aldeed:collection2
 nemo64:translator
 nemo64:bootstrap
+yogiben:admin
+accounts-base
+accounts-password
 
