@@ -10,4 +10,4 @@ PLANET_TYPES = {
   STONE: "stone",
   EARTH: "earth"
 };
-PLANET_MAX_SPEED = 900000; // (15m)time per rotation
+PLANET_MAX_SPEED = 24*60*60*1000; // (24h) time per rotation
