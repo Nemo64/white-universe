@@ -15,7 +15,7 @@ Router.map(function () {
       this.route('home', {path: '/'});
   */
   this.route('blank', {
-    path: '/:star_system',
+    path: '/',
     layoutTemplate: 'GameLayout',
     data: function () {
       return null;

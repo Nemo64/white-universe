@@ -21,7 +21,10 @@ Template.UniverseOverview.helpers({
   systems: function () {
     return StarSystem.find();
   },
-  
+  isActive: function () {
+    return true;
+  }
+  /*
   isActive: function (starSystem) {
     var params = Router.current().params;
     return starSystem.name === params.star_system;
@@ -30,7 +33,7 @@ Template.UniverseOverview.helpers({
   activeSystem: function () {
     var params = Router.current().params;
     return StarSystem.findOne({name: params.star_system});
-  }
+  }*/
 });
 
 /*****************************************************************************/
